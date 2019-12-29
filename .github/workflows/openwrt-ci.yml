@@ -14,9 +14,9 @@ on:
     branches: 
       - CI-wab201
   #     ↑↑↑ 改成你的分支名, 一般是master
-   schedule:
+  schedule:
      - cron: 0 20 * * *
-   release:
+  release:
      types: [published]
 
 jobs:
